@@ -36,3 +36,16 @@ body {
   padding-right: 40px;
   color: rgba(255, 255, 255, 1);
 }
+
+.btn span {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #04fe4d;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover span {
+  left: calc(100% - 55px);
+}
